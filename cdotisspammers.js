@@ -1,6 +1,10 @@
 const fs = require('fs')
 
-const spammerList = fs.readFileSync('referrer-spam-list/spammers.txt')
+var path = require('path');
+
+var spammerstxtpath = path.join(__dirname, 'referrer-spam-list', 'spammers.txt');
+
+const spammerList = fs.readFileSync(spammerstxtpath)
   .toString()
   .split('\r\n')
   .filter(Boolean) 
