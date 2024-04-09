@@ -1,10 +1,12 @@
 const fs = require('fs')
 
-const spammerList = fs.readFileSync('./referral-spammers.txt')
+const spammerList = fs.readFileSync('referrer-spam-list/spammers.txt')
   .toString()
-  .split('\n') 
+  .split('\r\n')
   .filter(Boolean) 
 
 const isSpammer = referer => {
   return referer && spammerList.some(spammer => referer.includes(spammer))
 }
+
+module.exports.isSpammer = isSpammer
