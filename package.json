@@ -1,6 +1,6 @@
 {
   "name": "c.isspammer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "cdotisspammers.js",
   "scripts": {
@@ -8,6 +8,13 @@
   },
   "author": "Jana C.",
   "license": "ISC",
+  "repository": {
+
+    "type": "git",
+
+    "url": "https://github.com/JanaCoulomb/c.isspammer.git"
+
+  },
   "dependencies": {
     "fs": "^0.0.1-security"
   }
