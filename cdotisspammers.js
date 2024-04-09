@@ -13,7 +13,7 @@ const isReferrerSpammer = referer => {
   return referer && spammerList.some(spammer => referer.includes(spammer))
 }
 const isSpammer = req => {
-  return isReferrerSpammer(req)
+  return isReferrerSpammer(req.headers.referer)
 }
 
 
