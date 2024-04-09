@@ -1,0 +1,3 @@
+[submodule "referrer-spam-list"]
+	path = referrer-spam-list
+	url = https://github.com/matomo-org/referrer-spam-list
