@@ -1,4 +1,4 @@
-Simple referrer checker for known spammers
+NPM Package for Simple referrer checker for known spammers
 
 This projekt is based on this article: https://ipdata.co/blog/bot-detection/ and uses the following dataset: https://github.com/matomo-org/referrer-spam-list/blob/master/spammers.txt
 
